@@ -31,8 +31,8 @@ body .wrapper h2 {
 
 body .tech-wrapper {
     margin:20px;
-    height:250px;
-    background:red;     /* TODO: For testing purpose */
+    margin-top: 10px;
+    height:140px;
 }
 
 body .tech-wrapper .tech-wrapper-item {
@@ -41,12 +41,18 @@ body .tech-wrapper .tech-wrapper-item {
     margin-right: -4px;
     box-sizing: border-box;
     padding: 1%;
+    vertical-align: top;
 }
 
-/* Selects all <div> elements where the parent is a <tech-wrapper-item> element*/
-.tech-wrapper-item > div {
-    background: #d5d8ff;
-    height:200px;
+body .tech-wrapper .tech-wrapper-item .title {
+    letter-spacing: 1px;
+    color: #29bbff;
+    font-weight: bold;
+    padding-left: 12px;
+}
+
+body .tech-wrapper .tech-wrapper-item .tech-list ul{
+    margin:4px; /* adjust the default margin set by browser*/
 }
 
 body .wrapper h2:after {
