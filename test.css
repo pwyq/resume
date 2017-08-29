@@ -19,20 +19,63 @@ body .websites .website-item {
 
 body .wrapper {
     margin: 20px;
-    padding: 5px;
-    background-color: #9edb65; /* TODO: For testing purpose */
+    /*background-color: #9edb65; !* TODO: For testing purpose *!*/
 }
 
-body .wrapper h2 {
+body .wrapper .exp-item {
+    /*background-color: #9ea5db; !* TODO: For testing purpose *!*/
+    /*padding-top: 0px;*/
+}
+
+body .wrapper #first-exp-item {
+    margin-top: -10px;  /* Adjust the space between the first working experience and the header*/
+}
+
+body .wrapper hr {
+    margin: 0px;
+    margin-left: 8px;   /* Need to be the same as `padding-left` of `exp-company` */
+    padding:0px;
+}
+
+body .wrapper .exp-item .exp-company {
+    font-weight: bold;
+    padding-left: 8px;
+    display: inline-block;
+}
+
+body .wrapper .exp-item .exp-time {
+    float: right;
+}
+
+body .wrapper .exp-item .exp-title {
+    display: inline-block;
+    padding-left: 8px;
+}
+
+body .wrapper .exp-item .exp-title::after {
+    content: " ";
+}
+
+body .wrapper .exp-item .used-tech {
+    display: inline-block;
+    color: #a1a0ad;
+}
+
+body .wrapper .exp-item .exp-details ul{
+    margin:4px; /* adjust the default margin set by browser*/
+}
+
+body .wrapper h3 {
     letter-spacing: 2px;
     word-spacing: 2px;
     overflow: hidden;
+    margin-top: 0;
 }
 
 body .tech-wrapper {
     margin:20px;
     margin-top: 10px;
-    height:140px;
+    height:145px;
 }
 
 body .tech-wrapper .tech-wrapper-item {
@@ -48,14 +91,14 @@ body .tech-wrapper .tech-wrapper-item .title {
     letter-spacing: 1px;
     color: #29bbff;
     font-weight: bold;
-    padding-left: 12px;
 }
 
 body .tech-wrapper .tech-wrapper-item .tech-list ul{
-    margin:4px; /* adjust the default margin set by browser*/
+    margin-top:4px; /* adjust the default margin set by browser*/
+    margin-left: -8px;
 }
 
-body .wrapper h2:after {
+body .wrapper h3:after {
     content:"";
     display: inline-block;
     height: 0.5em;
