@@ -1,0 +1,118 @@
+body .name {
+    font-size: 22px;
+    text-align: center; /* center text*/
+    padding-top: 30px;  /* padding to the top of page */
+    letter-spacing: 4px;
+    word-spacing: 4px;
+}
+
+body .websites {
+    color: #b0c0bf;
+    text-align: center;
+    margin-top: 8px;    /* Space between the line of websites and your name */
+}
+
+body .websites .website-item {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+body .wrapper {
+    margin: 20px;
+    padding: 5px;
+    background-color: #9edb65; /* TODO: For testing purpose */
+}
+
+body .wrapper h2 {
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    overflow: hidden;
+}
+
+body .tech-wrapper {
+    margin:20px;
+    height:250px;
+    background:red;     /* TODO: For testing purpose */
+}
+
+body .tech-wrapper .tech-wrapper-item {
+    width: 25%;
+    display:inline-block;
+    margin-right: -4px;
+    box-sizing: border-box;
+    padding: 1%;
+}
+
+/* Selects all <div> elements where the parent is a <tech-wrapper-item> element*/
+.tech-wrapper-item > div {
+    background: #d5d8ff;
+    height:200px;
+}
+
+body .wrapper h2:after {
+    content:"";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 100%;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid black;
+}
+
+a {
+    color: inherit; /* color defined in body .websites */
+    text-decoration: inherit; /* no underline */
+}
+
+a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6d4fff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+body .fa {
+    margin-right: 3px; /* Space between icon and your personal links */
+}
+
+#last-name {
+    color: coral;   /* TODO: testing color */
+    margin: auto;   /* center text */
+    display: inline-block;  /* host name in one line of text */
+}
+
+#first-name {
+    color: red;     /* TODO: testing color */
+    margin: auto;   /* center text */
+    display: inline-block; /* host name in one line of text */
+}
+
+body {
+    background: rgb(204,204,204);
+}
+
+page {
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+
+page[size="A4"] {
+    width: 21cm;
+    height: 29.7cm;
+}
+
+@media print {
+    body, page {
+        margin: 0;
+        box-shadow: 0;
+    }
+}
