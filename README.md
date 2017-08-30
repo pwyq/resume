@@ -1,5 +1,5 @@
 # resume
-Author: Yanqign Wu
+Author: Yanqing Wu
 
 ### Say something
 I am tired of editing my resume on Word or something similar.
