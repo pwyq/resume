@@ -38,6 +38,7 @@ Therefore, I use HTML+CSS to make my new resume. Hope you may also like it.
 6. <a name="last-name">Last step</a>, open the `.pdf` file of your resume, now print to a actual piece of paper :P
     
     P.S. If the printed resume is cropped somehow, on the `Page Sizing & Handling`, select `Shrink oversizzed page`.
+    
             - This may vary from different PDF viewers, similar setting is `Shrink to Printable Area`
             - If the printed resume still does not look right, feel free to contact me.
 
@@ -62,7 +63,7 @@ Therefore, I use HTML+CSS to make my new resume. Hope you may also like it.
 
 ### TODO
 1. Add mobile version?
-2. Tested on more browser
+2. Tested on more browsers
 
 
 [1]: https://git.io/v5WGN
