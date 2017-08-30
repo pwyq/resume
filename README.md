@@ -15,6 +15,6 @@ TBD
 Google Chrome
 
 ### TODO
-1. Finish the rest
-2. Make it a template; easy to be edited.
-3. Add Mobile Version
+1. Make it a template; easy to be edited.
+2. Add Mobile Version?
+3. Add demo files
